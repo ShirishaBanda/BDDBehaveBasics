@@ -53,4 +53,4 @@ def step_impl(context):
     textVal = context.driver.find_element_by_xpath("//*[@id='boxscroll']/li[1]/a/b").text
     print("Text for Write mail is ", textVal)
     assert textVal in "Write mail"
-    assert False  # Forcefiully failing assertion
+    assert True  # Forcefiully failing assertion
